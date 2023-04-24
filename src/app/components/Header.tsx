@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import logo from '../../../public/logoTarsila.png'
+import logo from '../../../public/logoTarsila1.png'
 import { Icon } from '@iconify/react'
 
 export function Header() {
