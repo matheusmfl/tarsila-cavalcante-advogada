@@ -3,7 +3,7 @@ import image from '../../../public/g1Image.png'
 
 export function SecondSection() {
   return (
-    <section className="p-5 bg-white flex flex-col">
+    <section className="p-5 bg-slate-50 flex flex-col">
       <div className="flex flex-col gap-4">
         <h2 className="text-xl text-slate-950 text-center font-medium">
           Ter acesso ao FIES é um direito seu!

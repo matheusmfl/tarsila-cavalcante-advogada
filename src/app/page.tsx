@@ -1,5 +1,6 @@
 import { HeroSection } from './components/HeroSection'
 import { SecondSection } from './components/SecondSection'
+import { SectionGoogle } from './components/SectionGoogle'
 import { ThirdSection } from './components/ThirdSection'
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <SecondSection />
       <ThirdSection />
+      <SectionGoogle />
     </>
   )
 }
