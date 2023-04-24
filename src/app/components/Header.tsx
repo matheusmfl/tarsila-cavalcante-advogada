@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react'
 
 export function Header() {
   return (
-    <header className="flex flex-col p-3 items-center justify-center bg-slate-950 w-full">
+    <header className="flex flex-col p-3 items-center justify-center bg-slate-900 w-full">
       <div className="flex flex-col gap-4 items-center justify-center">
         <Image
           src={logo}
@@ -14,7 +14,7 @@ export function Header() {
         />
         <div>
           <nav>
-            <div className="flex mt-4 gap-4 text-center items-center justify-center">
+            <div className="flex mt-2 gap-3 text-center items-center justify-center">
               <Icon
                 icon="ic:outline-email"
                 className="h-6 w-6 text-orange-300"
