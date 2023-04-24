@@ -1,9 +1,12 @@
 import { ReactNode } from 'react'
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import { Header } from './components/Header'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  weight: ['300', '400', '500', '700'],
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: 'Você na faculdade',
@@ -12,8 +15,8 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className={inter.className}>
-      <body className="max-w-[1420px] flex flex-col items-center justify-center">
+    <html lang="en" className={roboto.className}>
+      <body className="max-w-[1420px] bg-white flex flex-col items-center justify-center">
         <Header />
         {children}
       </body>
