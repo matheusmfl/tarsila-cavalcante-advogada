@@ -20,8 +20,8 @@ export function SectionGoogle() {
         <h3>Avaliações do google</h3>
       </div>
 
-      <div className="mt-3 flex overflow-x-scroll gap-20 w-full snap-x snap-start items-center justify-center">
-        <div className="snap-center">
+      <div className="mt-3 flex overflow-x-scroll w-full snap-x snap-mandatory max-w-screen-lg mx-auto justify-between snap-start ">
+        <div className="snap-center mx-3">
           <CardsGoogle
             author="Cleto Cavalcanti"
             content='Rapidez no atendimento (via telefone)
@@ -30,7 +30,7 @@ export function SectionGoogle() {
           />
         </div>
 
-        <div className="snap-center">
+        <div className="snap-center mx-3">
           <CardsGoogle
             author="Cleto Cavalcanti"
             content='Rapidez no atendimento (via telefone)
@@ -39,7 +39,7 @@ export function SectionGoogle() {
           />
         </div>
 
-        <div className="snap-center">
+        <div className="snap-center mx-3">
           <CardsGoogle
             author="Cleto Cavalcanti"
             content='Rapidez no atendimento (via telefone)
