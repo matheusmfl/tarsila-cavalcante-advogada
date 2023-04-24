@@ -21,7 +21,7 @@ export function Header() {
               />
               <a
                 href="#"
-                className="font-roboto font-normal font-medium:text-base text-sm text-brand-slate-50"
+                className="font-roboto font-normal font-medium:text-base text-sm text-slate-50"
               >
                 contato@tarsilacavalcante.com.br
               </a>
@@ -33,7 +33,7 @@ export function Header() {
               />
               <a
                 href="#"
-                className="font-roboto font-normal font-medium:text-base text-sm text-brand-slate-50"
+                className="font-roboto font-normal font-medium:text-base text-sm text-slate-50"
               >
                 81 99976 - 6541
               </a>
