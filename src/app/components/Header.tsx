@@ -7,11 +7,13 @@ export function Header() {
   return (
     <header className="flex flex-col p-3 items-center justify-center bg-slate-900 w-full">
       <div className="flex flex-col gap-4 items-center justify-center">
-        <Image
-          src={logo}
-          alt="Logo Empresa Advocacia"
-          // className="w-[152px] h-[60px]"
-        />
+        <div className="h-10 w-36">
+          <Image
+            src={logo}
+            alt="Logo Empresa Advocacia"
+            // className="w-[152px] h-[60px]"
+          />
+        </div>
         <div>
           <nav>
             <div className="flex mt-2 gap-3 text-center items-center justify-center">
