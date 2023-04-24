@@ -20,7 +20,7 @@ export function SectionGoogle() {
         <h3>Avaliações do google</h3>
       </div>
 
-      <div className="mt-3 flex overflow-x-scroll gap-20 w-full snap-x snap-start pb-">
+      <div className="mt-3 flex overflow-x-scroll gap-20 w-full snap-x snap-start items-center justify-center">
         <div className="snap-center">
           <CardsGoogle
             author="Cleto Cavalcanti"
