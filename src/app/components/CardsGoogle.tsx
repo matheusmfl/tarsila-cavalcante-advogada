@@ -14,10 +14,10 @@ export function CardsGoogle({ author, stars, content }: props) {
   const emptyStars = maxStars - rating
 
   return (
-    <div className="p-5 flex flex-col gap-3 items-center bg-slate-50 rounded-lg">
+    <div className="p-5 flex flex-col gap-3 items-center bg-slate-50 rounded-lg w-[320px]">
       <h4 className="text-slate-950">{author}</h4>
       <div className="flex">
-        {[...Array(maxStars)].map((_, i) => (
+        {[...Array(maxStars - 1)].map((_, i) => (
           <Image src={starLive} alt="" key={`full_${i}`} />
         ))}
         {[...Array(emptyStars)].map((_, i) => (

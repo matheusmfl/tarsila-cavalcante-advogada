@@ -20,13 +20,33 @@ export function SectionGoogle() {
         <h3>Avaliações do google</h3>
       </div>
 
-      <div className="mt-3">
-        <CardsGoogle
-          author="Cleto Cavalcanti"
-          content='Rapidez no atendimento (via telefone)
+      <div className="mt-3 flex overflow-x-scroll gap-20 snap-x snap-start">
+        <div className="snap-center">
+          <CardsGoogle
+            author="Cleto Cavalcanti"
+            content='Rapidez no atendimento (via telefone)
        e eficiência no trato "on-line", quando necessário; também atende presencial. Recomendo.'
-          stars={4}
-        />
+            stars={4}
+          />
+        </div>
+
+        <div className="snap-center">
+          <CardsGoogle
+            author="Cleto Cavalcanti"
+            content='Rapidez no atendimento (via telefone)
+       e eficiência no trato "on-line", quando necessário; também atende presencial. Recomendo.'
+            stars={4}
+          />
+        </div>
+
+        <div className="snap-center">
+          <CardsGoogle
+            author="Cleto Cavalcanti"
+            content='Rapidez no atendimento (via telefone)
+       e eficiência no trato "on-line", quando necessário; também atende presencial. Recomendo.'
+            stars={4}
+          />
+        </div>
       </div>
     </section>
   )
