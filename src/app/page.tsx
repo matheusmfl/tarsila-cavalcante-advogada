@@ -1,3 +1,4 @@
+'use client'
 import { CtaSection } from './components/CtaSection'
 import { Footer } from './components/Footer'
 import { HeroSection } from './components/HeroSection'

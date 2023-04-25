@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -18,12 +18,10 @@
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "swiper": "^9.2.4",
     "tailwindcss": "3.3.1",
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "@iconify/react": "^4.1.0",
     "@rocketseat/eslint-config": "^1.2.0",
     "eslint": "^8.39.0"
   }

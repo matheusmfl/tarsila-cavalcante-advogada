@@ -19,6 +19,7 @@ export function CtaSection() {
           </h3>
         </div>
         <button
+          aria-label="Botão para chamada no whatsapp"
           className="flex px-6 py-3 gap-3 lg:mt-5 
        items-center justify-center bg-green-600 hover:bg-green-700 text-slate-50 uppercase rounded-md"
         >

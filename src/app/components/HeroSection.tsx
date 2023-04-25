@@ -31,6 +31,7 @@ export function HeroSection() {
           imediatamente.
         </span>
         <button
+          aria-label="Botão para chamada no whatsapp"
           className="flex px-6 py-3 gap-3
        items-center justify-center lg:w-80 bg-green-600 hover:bg-green-700 text-slate-50 uppercase rounded-md"
         >
