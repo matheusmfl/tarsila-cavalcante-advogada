@@ -9,8 +9,8 @@ const roboto = Roboto({
 })
 
 export const metadata = {
-  title: 'Você na faculdade',
-  description: 'Tarsila cavalcanti Advogada',
+  title: 'Tarsila Cavalcante | FIES',
+  description: 'Tarsila cavalcante Advogada',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {

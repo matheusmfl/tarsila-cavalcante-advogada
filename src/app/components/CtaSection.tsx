@@ -6,7 +6,7 @@ export function CtaSection() {
   return (
     <section className="bg-slate-50 flex flex-col py-10 px-5 gap-5 w-full items-center justify-center">
       <div className="flex flex-col gap-2 items-center justify-center">
-        <div className="lg:w-80 lg:flex lg:items-center lg:justify-center lg:flex-col">
+        <div className="lg:w-80 flex flex-col items-center gap-2 lg:flex lg:items-center lg:justify-center lg:flex-col">
           <Image
             src={supportIcon}
             alt="Icone de suporte ao cliente"

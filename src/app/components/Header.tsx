@@ -2,6 +2,7 @@ import Image from 'next/image'
 import logo from '../../../public/logoTarsila1.png'
 import iconWhatsapp from '../../../public/icons/orangeIconWhatsapp.svg'
 import iconMail from '../../../public/icons/ic_outline-email.svg'
+import iconWhatsappWhite from '../../../public/icons/ic_baseline-whatsapp.svg'
 
 export function Header() {
   return (
@@ -59,6 +60,9 @@ export function Header() {
           </nav>
         </div>
       </div>
+      <button className="rounded-full h-16 w-16 fixed right-2 bottom-2 lg:right-10 animate-pulse lg:bottom-10 bg-green-500 flex items-center justify-center">
+        <Image src={iconWhatsappWhite} alt="" className="h-12 w-12" />
+      </button>
     </header>
   )
 }
