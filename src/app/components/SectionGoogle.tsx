@@ -36,7 +36,7 @@ export function SectionGoogle() {
           <CardsGoogle
             author="Renata Marinho"
             content="Profissional exemplar, ótimo atendimento."
-            stars={4}
+            stars={5}
           />
         </div>
 
@@ -45,7 +45,7 @@ export function SectionGoogle() {
             author="Marcio Arruda"
             content="Minha experiência como cliente do escritório da
              Tarsila Cavalcante foi uma boa, uma causa uma seg..."
-            stars={4}
+            stars={5}
           />
         </div>
       </div>
