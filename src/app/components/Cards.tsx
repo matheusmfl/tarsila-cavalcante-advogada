@@ -26,7 +26,7 @@ export function Cards({ imageType, title, subtitle }: CardProps) {
         {title}
       </h3>
       <span className="font-normal text-base text-center text-orange-100">
-        {subtitle}
+        {subtitle}.
       </span>
     </div>
   )
