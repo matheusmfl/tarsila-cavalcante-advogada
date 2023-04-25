@@ -1,3 +1,5 @@
+import { CtaSection } from './components/CtaSection'
+import { Footer } from './components/Footer'
 import { HeroSection } from './components/HeroSection'
 import { SecondSection } from './components/SecondSection'
 import { SectionGoogle } from './components/SectionGoogle'
@@ -9,7 +11,9 @@ export default function Home() {
       <HeroSection />
       <SecondSection />
       <ThirdSection />
+      <CtaSection />
       <SectionGoogle />
+      <Footer />
     </>
   )
 }

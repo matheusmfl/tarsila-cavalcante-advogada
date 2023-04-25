@@ -17,7 +17,9 @@ export function SectionGoogle() {
             height={14}
           />
         </div>
-        <h3>Avaliações do google</h3>
+        <h3 className="text-slate-50 font-semibold text-sm">
+          Avaliações do google
+        </h3>
       </div>
 
       <div className="mt-3 flex overflow-x-scroll w-full snap-x snap-mandatory max-w-screen-lg mx-auto justify-between snap-start ">
@@ -32,18 +34,17 @@ export function SectionGoogle() {
 
         <div className="snap-center mx-3">
           <CardsGoogle
-            author="Cleto Cavalcanti"
-            content='Rapidez no atendimento (via telefone)
-       e eficiência no trato "on-line", quando necessário; também atende presencial. Recomendo.'
+            author="Renata Marinho"
+            content="Profissional exemplar, ótimo atendimento."
             stars={4}
           />
         </div>
 
         <div className="snap-center mx-3">
           <CardsGoogle
-            author="Cleto Cavalcanti"
-            content='Rapidez no atendimento (via telefone)
-       e eficiência no trato "on-line", quando necessário; também atende presencial. Recomendo.'
+            author="Marcio Arruda"
+            content="Minha experiência como cliente do escritório da
+             Tarsila Cavalcante foi uma boa, uma causa uma seg..."
             stars={4}
           />
         </div>
