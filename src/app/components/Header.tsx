@@ -60,7 +60,10 @@ export function Header() {
           </nav>
         </div>
       </div>
-      <button className="rounded-full h-16 w-16 fixed right-2 bottom-2 lg:right-10 animate-pulse lg:bottom-10 bg-green-500 flex items-center justify-center">
+      <button
+        aria-label="Chamada para o whatsapp da advogada Tarsila"
+        className="rounded-full h-16 w-16 fixed right-2 bottom-2 lg:right-10 animate-pulse lg:bottom-10 bg-green-500 flex items-center justify-center"
+      >
         <Image src={iconWhatsappWhite} alt="" className="h-12 w-12" />
       </button>
     </header>
