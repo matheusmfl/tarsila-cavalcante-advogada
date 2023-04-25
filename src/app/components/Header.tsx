@@ -28,26 +28,30 @@ export function Header() {
                 className="h-6 w-6 text-orange-300"
               /> */}
               <Image
-                src={iconWhatsapp}
+                src={iconMail}
                 alt=""
                 className="h-6 w-6 text-orange-300"
               />
               <a
-                href="#"
+                href="mailto:contato@tarsilacavalcante.com.br"
+                target="_blank"
                 className="font-roboto font-normal font-medium:text-base text-sm text-slate-50"
+                rel="noreferrer"
               >
                 contato@tarsilacavalcante.com.br
               </a>
             </div>
             <div className="flex mt-4 gap-4 text-center items-center justify-center lg:mt-0">
               <Image
-                src={iconMail}
+                src={iconWhatsapp}
                 alt=""
                 className="h-6 w-6 text-orange-300"
               />
               <a
-                href="#"
+                href="https://wa.me/5581999766541?text=Doutora%20Tarsila%20quero%20resolver%20meu%20FIES."
+                target="_blank"
                 className="font-roboto font-normal font-medium:text-base text-sm text-slate-50"
+                rel="noreferrer"
               >
                 81 99976 - 6541
               </a>
