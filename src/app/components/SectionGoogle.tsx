@@ -5,7 +5,7 @@ import { CardsGoogle } from './CardsGoogle'
 
 export function SectionGoogle() {
   return (
-    <section className="flex flex-col items-center justify-center px-5 py-10 bg-slate-900 w-full">
+    <section className="flex flex-col items-center justify-center px-5 py-10 lg:py-20 bg-slate-900 w-full">
       <div className="flex flex-col items-center">
         <Image src={icon} alt="Icone do google" width={40} height={40} />
         <div className="flex items-center justify-center gap-1 mt-3">
@@ -22,7 +22,7 @@ export function SectionGoogle() {
         </h3>
       </div>
 
-      <div className="mt-3 flex overflow-x-scroll w-full snap-x snap-mandatory max-w-screen-lg mx-auto justify-between snap-start ">
+      <div className="mt-3 flex overflow-x-scroll lg:overflow-hidden w-full snap-x snap-mandatory max-w-screen-lg mx-auto justify-between snap-start ">
         <div className="snap-center mx-3">
           <CardsGoogle
             author="Cleto Cavalcanti"

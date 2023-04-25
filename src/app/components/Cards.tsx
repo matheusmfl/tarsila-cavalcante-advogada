@@ -22,7 +22,9 @@ export function Cards({ imageType, title, subtitle }: CardProps) {
   return (
     <div className="h-56 gap-5 p-5 bg-slate-900 flex flex-col items-center justify-center rounded-md shadow-md shadow-slate-600">
       <Image src={imagePath} alt="Icone de card" width={60} height={60} />
-      <h3 className="font-semibold text-lg text-center text-white">{title}</h3>
+      <h3 className="font-semibold text-lg text-center text-white lg:text-base">
+        {title}
+      </h3>
       <span className="font-normal text-base text-center text-orange-100">
         {subtitle}
       </span>
