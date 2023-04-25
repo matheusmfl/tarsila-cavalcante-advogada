@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react'
 
 export function Header() {
   return (
-    <header className="flex flex-col p-3 items-center justify-center bg-slate-900 w-full">
+    <header className="flex flex-col px-6 py-10 items-center justify-center bg-slate-900 w-full">
       <div className="flex flex-col gap-4 items-center justify-center">
         <div className="h-10 w-36">
           <Image
