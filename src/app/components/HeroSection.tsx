@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import heroImage from '../../../public/heroImage.png'
-import { Icon } from '@iconify/react'
+import iconWhatsapp from '../../../public/icons/ic_baseline-whatsapp.svg'
 
 export function HeroSection() {
   return (
@@ -31,13 +31,16 @@ export function HeroSection() {
           imediatamente.
         </span>
         <button
-          type="submit"
-          className=" uppercase bg-slate-950 py-3 px-4 w-full rounded-md gap-4 text-orange-300 flex items-center justify-center"
+          className="flex px-6 py-3 gap-3
+       items-center justify-center bg-green-600 hover:bg-green-700 text-slate-50 uppercase rounded-md"
         >
-          quero ajuda especializada
-          <Icon
-            icon="ic:baseline-whatsapp"
-            className="h-6 w-6 text-orange-300"
+          <a href="#">Quero ajuda especializada</a>
+          <Image
+            src={iconWhatsapp}
+            alt="icone whatsapp"
+            width={20}
+            height={20}
+            className="text-white "
           />
         </button>
       </div>

@@ -1,7 +1,7 @@
-'use client'
 import Image from 'next/image'
 import logo from '../../../public/logoTarsila1.png'
-import { Icon } from '@iconify/react'
+import iconWhatsapp from '../../../public/icons/orangeIconWhatsapp.svg'
+import iconMail from '../../../public/icons/ic_outline-email.svg'
 
 export function Header() {
   return (
@@ -17,8 +17,13 @@ export function Header() {
         <div>
           <nav>
             <div className="flex mt-2 gap-3 text-center items-center justify-center">
-              <Icon
+              {/* <Icon
                 icon="ic:outline-email"
+                className="h-6 w-6 text-orange-300"
+              /> */}
+              <Image
+                src={iconWhatsapp}
+                alt=""
                 className="h-6 w-6 text-orange-300"
               />
               <a
@@ -29,8 +34,9 @@ export function Header() {
               </a>
             </div>
             <div className="flex mt-4 gap-4 text-center items-center justify-center">
-              <Icon
-                icon="ic:baseline-whatsapp"
+              <Image
+                src={iconMail}
+                alt=""
                 className="h-6 w-6 text-orange-300"
               />
               <a

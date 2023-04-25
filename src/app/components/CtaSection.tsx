@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import supportIcon from '../../../public/icons/Support.svg'
-import whatsappIcon from '../../../public/icons/ic_baseline-whatsapp.svg'
+import iconWhatsapp from '../../../public/icons/ic_baseline-whatsapp.svg'
 
 export function CtaSection() {
   return (
@@ -22,11 +22,11 @@ export function CtaSection() {
       >
         <a href="#">Quero ajuda especializada</a>
         <Image
-          src={whatsappIcon}
+          src={iconWhatsapp}
           alt="icone whatsapp"
           width={20}
           height={20}
-          className="text-white"
+          className="text-white "
         />
       </button>
     </section>
