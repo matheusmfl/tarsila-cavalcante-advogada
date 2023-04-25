@@ -18,6 +18,7 @@ export function Cards({ imageType, title, subtitle }: CardProps) {
   } else {
     imagePath = icon3
   }
+  const ola = 'ola'
 
   return (
     <div className="h-56 gap-5 p-5 bg-slate-900 flex flex-col items-center justify-center rounded-md shadow-md shadow-slate-600">
