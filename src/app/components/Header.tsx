@@ -15,11 +15,7 @@ export function Header() {
        flex-col gap-4 items-center justify-center"
       >
         <div className="h-10 w-36">
-          <Image
-            src={logo}
-            alt="Logo Empresa Advocacia"
-            // className="w-[152px] h-[60px]"
-          />
+          <Image src={logo} alt="Logo Empresa Advocacia" />
         </div>
         <div>
           <nav className="lg:flex lg:gap-4">

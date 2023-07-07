@@ -4,7 +4,7 @@ export function ThirdSection() {
   return (
     <section className="flex flex-col px-5 py-10 bg-slate-100 lg:w-full lg:items-center lg:px-20 lg:py-20">
       <h2 className="text-slate-950 font-semibold text-xl text-center lg:w-[600px] lg:text-4xl">
-        Escritório especializado em Direito do Consumidor e crédito estudantil
+        Escritório especializado em Direito do Consumidor e Crédito Estudantil
       </h2>
 
       <div className="flex flex-col gap-5 lg:gap-8 mt-10 lg:flex-row">
@@ -20,7 +20,7 @@ export function ThirdSection() {
         />
         <Cards
           imageType="image3"
-          title="ADVOCACIA DE REFERÊNCIA"
+          title="AGILIDADE NO ATENDIMENTO"
           subtitle="ATENDIMENTO ONLINE EM TODO PAÍS COM A AGILIDADE NECESSÁRIA"
         />
       </div>
