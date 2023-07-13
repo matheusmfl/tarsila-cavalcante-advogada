@@ -12,6 +12,7 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'hero-bg': 'url(../assets/hero-bg.webp)',
+        'bg-2': 'url(../assets/bg-2.webp)',
       },
       fontFamily: {
         inter: 'var(--font-inter)',

@@ -1,7 +1,9 @@
 import { Header } from '@/app/components/Header'
+import { DividerImageSection } from '@/app/components/divorcio/DividerImageSection'
 import { Hero } from '@/app/components/divorcio/Hero'
 import { Section1 } from '@/app/components/divorcio/Section1'
 import { Section2 } from '@/app/components/divorcio/Section2'
+import { Section3 } from '@/app/components/divorcio/Section3'
 import { SectionAccordeon } from '@/app/components/divorcio/SectionAccordeon'
 
 export default function Divorcio() {
@@ -12,6 +14,8 @@ export default function Divorcio() {
       <Section1 />
       <Section2 />
       <SectionAccordeon />
+      <Section3 />
+      <DividerImageSection />
     </>
   )
 }
