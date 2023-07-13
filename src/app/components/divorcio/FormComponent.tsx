@@ -64,7 +64,7 @@ const FormComponent = () => {
             <label>Nome:</label>
             <input
               {...register('nome', { required: true })}
-              className="rounded-[4px] shadow-md h-12 py-2 px-4 text-gray-600"
+              className="rounded-[4px] border border-neutral-300 shadow-md h-12 py-2 px-4 text-gray-600"
             />
             {errors.nome && <span>O nome é obrigatório.</span>}
           </div>
@@ -73,7 +73,7 @@ const FormComponent = () => {
             <label>Email:</label>
             <input
               {...register('email', { required: true, pattern: /^\S+@\S+$/i })}
-              className="rounded-[4px] shadow-md h-12 py-2 px-4 text-gray-600"
+              className="rounded-[4px] border border-neutral-300 shadow-md h-12 py-2 px-4 text-gray-600"
             />
             {errors.email && <span>O email é inválido ou obrigatório.</span>}
           </div>
@@ -82,7 +82,7 @@ const FormComponent = () => {
             <label>Telefone:</label>
             <input
               {...register('telefone', { required: true })}
-              className="rounded-[4px] shadow-md h-12 py-2 px-4 text-gray-600"
+              className="rounded-[4px] border border-neutral-300 shadow-md h-12 py-2 px-4 text-gray-600"
             />
             {errors.telefone && <span>O telefone é obrigatório.</span>}
           </div>
@@ -91,7 +91,7 @@ const FormComponent = () => {
             <label>Mensagem:</label>
             <textarea
               {...register('mensagem', { required: true })}
-              className="rounded-[4px] shadow-md h-40 py-2 px-4 text-gray-600"
+              className="rounded-[4px] border border-neutral-300 shadow-md h-40 py-2 px-4 text-gray-600"
               defaultValue="Olá, gostaria de uma orientação jurídica"
             />
             {errors.mensagem && <span>A mensagem é obrigatória.</span>}
