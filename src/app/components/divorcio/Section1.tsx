@@ -6,7 +6,7 @@ import { CtaButton } from './microComponents/CtaButton'
 export function Section1() {
   return (
     <section className="py-6 bg-slate-100">
-      <div className="px-[31px] -translate-y-20">
+      <div className="px-[31px] -translate-y-20 md:-translate-y-16">
         <IconsComponent />
       </div>
 
@@ -20,7 +20,7 @@ export function Section1() {
         </span>
 
         {/* Texto laranja */}
-        <h2 className="text-center text-amber-600 font-roboto text-xl font-semibold leading-7">
+        <h2 className="text-center text-amber-600 font-roboto text-xl md:text-[36px] font-semibold leading-7 md:leading-10">
           Vantagens em nos escolher para representar o seu divórcio:
         </h2>
 
@@ -31,15 +31,16 @@ export function Section1() {
             <Image src={check} alt="Check laranja" />
             <span>
               Recomendação das melhores práticas
-              <br /> alinhadas aos seus interesses;
+              <br className="md:hidden" /> alinhadas aos seus interesses;
             </span>
           </div>
           {/* Texto2 */}
           <div className="flex items-start justify-start gap-3">
             <Image src={check} alt="Check laranja" />
             <span>
-              Agilidade processual na resolução do <br /> caso que outros
-              escritórios demoram <br /> meses;
+              Agilidade processual na resolução do <br className="md:hidden" />{' '}
+              caso que outros escritórios demoram <br className="md:hidden" />{' '}
+              meses;
             </span>
           </div>
 
@@ -47,12 +48,15 @@ export function Section1() {
           <div className="flex items-start justify-start gap-3">
             <Image src={check} alt="Check laranja" />
             <span>
-              Nossos métodos não causam <br /> desconforto a sua família;
+              Nossos métodos não causam <br className="md:hidden" /> desconforto
+              a sua família;
             </span>
           </div>
         </div>
 
-        <CtaButton title="QUERO AJUDA ESPECIALIZADA" />
+        <div className="md:flex md:items-center md:justify-center">
+          <CtaButton title="QUERO AJUDA ESPECIALIZADA" />
+        </div>
       </div>
     </section>
   )

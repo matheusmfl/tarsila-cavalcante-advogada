@@ -5,7 +5,7 @@ import icon3 from '../../../../assets/icon3.svg'
 
 export function IconsComponent() {
   return (
-    <div className="py-10 px-6 flex flex-col gap-5 rounded-xl shadow-xl bg-slate-50">
+    <div className="py-10 px-6 flex flex-col md:items-center md:justify-center md:flex-row gap-5 rounded-xl shadow-xl bg-slate-50">
       {/* Primeiros 2 cards */}
       <div className="flex">
         {/* Card1 */}
