@@ -11,7 +11,7 @@ export function Section3() {
         4,9 🌟 Avaliações do Google
       </h3>
 
-      <div className="flex flex-col md:flex-row gap-5">
+      <div className="flex flex-col md:flex-row gap-5 xl:hidden">
         <CardsGoogleDivorcio
           author={`Cleto Cavalcanti`}
           stars={5}
@@ -24,7 +24,31 @@ export function Section3() {
         />
       </div>
 
-      <div className="flex flex-col md:flex-row gap-5">
+      <div className="flex flex-col md:flex-row gap-5 xl:hidden">
+        <CardsGoogleDivorcio
+          author={`Marcio Arruda`}
+          stars={5}
+          content={`Excelente advogada! Muito prestativa com um atendimento maravilhoso, gratidão imensa pela ajuda, recomendo de olhos fechados.`}
+        />
+        <CardsGoogleDivorcio
+          author={`Bruno Vidal`}
+          stars={5}
+          content={`Minha experiência como cliente do escritório da Tarsila Cavalcante foi uma boa, uma causa uma seg...`}
+        />
+      </div>
+
+      {/* Div para XL */}
+      <div className="hidden xl:flex xl:gap-5">
+        <CardsGoogleDivorcio
+          author={`Cleto Cavalcanti`}
+          stars={5}
+          content={`Rapidez no atendimento (via telefone) e eficiência no trato " on-line", quando necessário; também atende presencial. Recomendo.`}
+        />
+        <CardsGoogleDivorcio
+          author={`Renata Marinho`}
+          stars={5}
+          content={`Profissional exemplar, ótimo atendimento`}
+        />
         <CardsGoogleDivorcio
           author={`Marcio Arruda`}
           stars={5}

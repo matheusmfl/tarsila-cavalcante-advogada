@@ -5,7 +5,7 @@ import icon3 from '../../../assets/iconCard3.svg'
 
 export function Section2() {
   return (
-    <section className="py-10 md:py-14 px-5 md:px-10 flex flex-col gap-5 md:gap-10 bg-slate-200 w-full">
+    <section className="py-10 md:py-14 px-5 md:px-10 flex flex-col gap-5 md:gap-10 xl:px-[120px] bg-slate-200 w-full">
       <h2 className="text-slate-900 font-roboto text-lg md:text-[36px] font-semibold leading-7 md:leading-10">
         Escritório especializado em Divórcio
       </h2>

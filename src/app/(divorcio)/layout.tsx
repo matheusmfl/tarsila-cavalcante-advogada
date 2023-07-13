@@ -22,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={`${roboto.className} ${inter.className}`}>
-      <body className="max-w-[1420px] bg-white flex flex-col items-center justify-center">
+      <body className="w-full bg-white flex flex-col items-center justify-center">
         {children}
       </body>
     </html>
