@@ -7,7 +7,7 @@ import iconWhatsappWhite from '../../../../public/icons/ic_baseline-whatsapp.svg
 export function HeaderDivorcio() {
   return (
     <header
-      className="flex font-roboto flex-col lg:px-20 px-6 py-10 items-center justify-center bg-slate-900 w-full
+      className="flex font-roboto flex-col lg:px-20 px-6 py-10 xl:py-[10px] items-center justify-center bg-slate-900 w-full
     "
     >
       <div
