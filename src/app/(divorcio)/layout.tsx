@@ -15,7 +15,7 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'Tarsila Cavalcante | FIES',
+  title: 'Tarsila Cavalcante | DIVÓRCIO',
   description: 'Tarsila cavalcante Advogada',
 }
 
