@@ -101,7 +101,7 @@ const FormComponent = () => {
 
           <button
             type="submit"
-            className="bg-slate-900 py-[10px] font-medium text-orange-300 text-base rounded mt-5"
+            className="bg-slate-900 py-[10px] font-medium text-orange-300 text-base rounded mt-5 xl:w-[200px]"
           >
             Enviar mensagem
           </button>
