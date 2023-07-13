@@ -1,6 +1,6 @@
 import { Footer } from '@/app/components/Footer'
-import { Header } from '@/app/components/Header'
 import { DividerImageSection } from '@/app/components/divorcio/DividerImageSection'
+import { HeaderDivorcio } from '@/app/components/divorcio/HeaderDivorcio'
 import { Hero } from '@/app/components/divorcio/Hero'
 import { Section1 } from '@/app/components/divorcio/Section1'
 import { Section2 } from '@/app/components/divorcio/Section2'
@@ -11,7 +11,7 @@ import { SectionForm } from '@/app/components/divorcio/SectionForm'
 export default function Divorcio() {
   return (
     <>
-      <Header />
+      <HeaderDivorcio />
       <Hero />
       <Section1 />
       <Section2 />
