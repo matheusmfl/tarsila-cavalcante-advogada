@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import './globals.css'
+import '../globals.css'
 import { Roboto } from 'next/font/google'
 import { Header } from '../components/Header'
 
