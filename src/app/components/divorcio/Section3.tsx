@@ -38,7 +38,7 @@ export function Section3() {
       </div>
 
       {/* Div para XL */}
-      <div className="hidden xl:flex xl:gap-5">
+      <div className="hidden xl:flex xl:gap-2">
         <CardsGoogleDivorcio
           author={`Cleto Cavalcanti`}
           stars={5}
