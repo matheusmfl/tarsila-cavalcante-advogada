@@ -14,7 +14,7 @@ export function CardsGoogleDivorcio({ author, stars, content }: props) {
   const emptyStars = maxStars - rating
 
   return (
-    <div className="p-5 flex flex-col gap-3 items-left bg-slate-50 rounded-lg w-[320px]">
+    <div className="p-5 flex flex-col gap-3 items-left bg-slate-50 rounded-lg w-[320px] xl:scale-90">
       <h4 className="text-slate-950">{author}</h4>
       <div className="flex">
         {[...Array(rating)].map((_, i) => (
