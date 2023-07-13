@@ -58,7 +58,7 @@ export function HeaderDivorcio() {
       </div>
       <button
         aria-label="Chamada para o whatsapp da advogada Tarsila"
-        className="rounded-full h-16 w-16 fixed right-2 bottom-2 lg:right-10 animate-pulse lg:bottom-10 bg-green-500 flex items-center justify-center"
+        className="rounded-full z-50 h-16 w-16 fixed right-2 bottom-2 lg:right-10 animate-pulse lg:bottom-10 bg-green-500 flex items-center justify-center"
       >
         <a href="https://wa.me/5581999766541?text=Doutora%20Tarsila%20quero%20resolver%20meu%20FIES.">
           <Image src={iconWhatsappWhite} alt="" className="h-12 w-12" />
