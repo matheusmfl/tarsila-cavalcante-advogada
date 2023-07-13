@@ -1,4 +1,4 @@
-import { CardsGoogle } from '../CardsGoogle'
+import { CardsGoogleDivorcio } from './microComponents/CardsGoogleDivorcio'
 
 export function Section3() {
   return (
@@ -11,22 +11,22 @@ export function Section3() {
         4,9 🌟 Avaliações do Google
       </h3>
 
-      <CardsGoogle
+      <CardsGoogleDivorcio
         author={`Cleto Cavalcanti`}
         stars={5}
         content={`Rapidez no atendimento (via telefone) e eficiência no trato " on-line", quando necessário; também atende presencial. Recomendo.`}
       />
-      <CardsGoogle
+      <CardsGoogleDivorcio
         author={`Renata Marinho`}
         stars={5}
         content={`Profissional exemplar, ótimo atendimento`}
       />
-      <CardsGoogle
+      <CardsGoogleDivorcio
         author={`Marcio Arruda`}
         stars={5}
         content={`Excelente advogada! Muito prestativa com um atendimento maravilhoso, gratidão imensa pela ajuda, recomendo de olhos fechados.`}
       />
-      <CardsGoogle
+      <CardsGoogleDivorcio
         author={`Bruno Vidal`}
         stars={5}
         content={`Minha experiência como cliente do escritório da Tarsila Cavalcante foi uma boa, uma causa uma seg...`}
