@@ -2,6 +2,7 @@ import Image from 'next/image'
 import icon1 from '../../../../assets/icon1.svg'
 import icon2 from '../../../../assets/icon2.svg'
 import icon3 from '../../../../assets/icon3.svg'
+import icon4 from '../../../../assets/icon4.svg'
 
 export function IconsComponent() {
   return (
@@ -41,7 +42,7 @@ export function IconsComponent() {
 
         {/* Card 4 */}
         <div className="flex flex-col items-center justify-center gap-1 w-[140px] h-[100px]">
-          <Image src={icon3} alt="Icone Justiça" />
+          <Image src={icon4} alt="Icone Justiça" />
           <span className="font-inter text-base font-semibold leading-5 text-slate-700">
             DISSOLUÇÃO DE <br />
             UNIÃO INSTÁVEL
@@ -78,7 +79,7 @@ export function IconsComponent() {
         </div>
         {/* Card 4 */}
         <div className="flex flex-col items-center justify-center gap-1 w-[140px] h-[100px]">
-          <Image src={icon3} alt="Icone Justiça" />
+          <Image src={icon4} alt="Icone Justiça" />
           <span className="font-inter text-base font-semibold leading-5 text-slate-700">
             DISSOLUÇÃO DE <br />
             UNIÃO INSTÁVEL
