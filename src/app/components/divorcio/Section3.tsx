@@ -2,7 +2,7 @@ import { CardsGoogleDivorcio } from './microComponents/CardsGoogleDivorcio'
 
 export function Section3() {
   return (
-    <section className="py-10 px-6 flex flex-col gap-8 bg-slate-900 w-full">
+    <section className="py-10 px-6 flex items-center justify-center flex-col gap-8 bg-slate-900 w-full">
       <h2 className="text-center text-slate-50 font-roboto text-xl font-semibold leading-7">
         O que dizem NOSSOS CLIENTES:
       </h2>
