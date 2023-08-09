@@ -1,5 +1,5 @@
 import { HeaderDivorcio } from '@/app/components/divorcio/HeaderDivorcio'
-import { Hero } from '@/app/components/divorcio/Hero'
+import { Hero } from '@/app/components/trabalhista/Hero'
 import { Section2 } from '@/app/components/trabalhista/Section2'
 import { Section3 } from '@/app/components/trabalhista/Section3'
 import { Section1 } from '@/app/components/trabalhista/Section1'
