@@ -35,7 +35,7 @@ const FormComponent = () => {
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="w-full shadow-lg">
       {/* Adicional container */}
-      <div className="bg-slate-900 flex flex-col gap-3 p-6 md:px-20 md:py-8 rounded-t-lg shadow-lg">
+      <div className="bg-slate-900 flex flex-col gap-3 p-6 md:px-20 md:py-8 rounded-t-lg shadow-lg lg:px-20">
         <h2 className="text-center text-orange-300 font-normal text-2xl font-roboto leading-8 ">
           FALE CONOSCO <br className="hidden md:block" />
           <strong>
@@ -44,14 +44,14 @@ const FormComponent = () => {
           </strong>
         </h2>
 
-        <span className="font-roboto text-base font-normal text-slate-50 leading-6">
+        <span className="font-roboto text-base font-normal text-slate-50 leading-6 lg:text-center">
           Envie uma mensagem dizendo como podemos te ajudar ou fale com a nossa
-          equipe pelo WhatsApp.{' '}
+          equipe pelo WhatsApp. <br className="hidden lg:block" />
           <strong>Entraremos em contato o mais breve possível!</strong>
         </span>
       </div>
       {/* Main Container */}
-      <div className="px-3 py-6 flex flex-col gap-6 rounded-b-lg shadow-md w-full">
+      <div className="px-3 py-6 flex flex-col gap-6 rounded-b-lg shadow-md w-full lg:px-20">
         {/* Dados name separator container */}
         <div className="flex flex-col gap-6">
           <CtaButton title="QUERO AJUDA ESPECIALIZADA" />

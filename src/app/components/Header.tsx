@@ -45,7 +45,7 @@ export function Header() {
                 className="h-6 w-6 text-orange-300"
               />
               <a
-                href="https://wa.me/5581999766541?text=Doutora%20Tarsila%20quero%20resolver%20meu%20FIES."
+                href="https://wa.me/5581999766541?text=Quero%20falar%20com%20um%20advogado%20especialista."
                 target="_blank"
                 className="font-roboto font-normal font-medium:text-base text-sm text-slate-50"
                 rel="noreferrer"
@@ -60,7 +60,7 @@ export function Header() {
         aria-label="Chamada para o whatsapp da advogada Tarsila"
         className="rounded-full h-16 w-16 fixed right-2 bottom-2 lg:right-10 animate-pulse lg:bottom-10 bg-green-500 flex items-center justify-center"
       >
-        <a href="https://wa.me/5581999766541?text=Doutora%20Tarsila%20quero%20resolver%20meu%20FIES.">
+        <a href="https://wa.me/5581999766541?text=Quero%20falar%20com%20um%20advogado%20especialista.">
           <Image src={iconWhatsappWhite} alt="" className="h-12 w-12" />
         </a>
       </button>

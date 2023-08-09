@@ -6,12 +6,12 @@ export function Section2() {
   return (
     <>
       {/* Main Container */}
-      <div className="px-6 pb-10 flex flex-col gap-6 xl:flex-row xl:px-[120px]">
+      <div className="px-6 pb-10 flex flex-col gap-6 xl:flex-row xl:px-[120px] xl:w-full xl:gap-60">
         {/* Texto1 */}
 
         {/* Container para XL */}
-        <div className="xl:w-[580px]">
-          <span className="text-slate-700 font-roboto text-xl font-medium leading-6 ">
+        <div className="xl:w-[580px] xl:pt-20">
+          <span className="text-slate-700 font-roboto text-2xl font-medium leading-6 ">
             <strong>Conte com uma especialista.</strong> Não cometa o erro de
             contratar profissionais generalistas. Tenha uma equipe especializada
             e atenciosa representando o seu caso.

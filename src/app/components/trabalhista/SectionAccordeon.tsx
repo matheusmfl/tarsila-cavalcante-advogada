@@ -3,7 +3,7 @@ import { CtaButton } from '../divorcio/microComponents/CtaButton'
 
 export function SectionAccordeon() {
   return (
-    <section className="bg-slate-100 px-6 py-10 flex flex-col gap-7 w-full">
+    <section className="bg-slate-100 px-6 py-10 flex flex-col gap-7 w-full lg:px-32 lg:py-20">
       <div className="w-full">
         <Accordeon type="trabalhista" />
       </div>

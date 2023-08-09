@@ -24,7 +24,7 @@ export function CtaSection() {
        items-center justify-center bg-green-600 hover:bg-green-700 text-slate-50 uppercase rounded-md"
         >
           <a
-            href="https://wa.me/5581999766541?text=Doutora%20Tarsila%20quero%20resolver%20meu%20FIES."
+            href="https://wa.me/5581999766541?text=Quero%20falar%20com%20um%20advogado%20especialista."
             target="_blank"
             rel="noreferrer"
           >
