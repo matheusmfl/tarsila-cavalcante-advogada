@@ -14,7 +14,7 @@ module.exports = {
         'hero-bg': 'url(../assets/hero-bg.webp)',
         'bg-2': 'url(../assets/bg-2.webp)',
         'divider-img': 'url(../assets/divider-img.webp)',
-        'hero-trabalhista': 'url(../assets/hero-trabalhista.webp)',
+        'hero-trabalhista': 'url(../assets/hero-Trabalhista.webp)',
       },
       fontFamily: {
         inter: 'var(--font-inter)',
