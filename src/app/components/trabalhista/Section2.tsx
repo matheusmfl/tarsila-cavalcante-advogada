@@ -6,7 +6,7 @@ export function Section2() {
   return (
     <>
       {/* Main Container */}
-      <div className="px-6 flex flex-col gap-6 xl:flex-row xl:px-[120px]">
+      <div className="px-6 pb-10 flex flex-col gap-6 xl:flex-row xl:px-[120px]">
         {/* Texto1 */}
 
         {/* Container para XL */}
