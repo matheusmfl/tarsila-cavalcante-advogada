@@ -49,9 +49,6 @@ export function SectionFeedback() {
           stars={5}
           content={`Profissional exemplar, ótimo atendimento`}
         />
-      </div>
-
-      <div className="flex flex-col md:flex-row gap-5 xl:hidden">
         <CardsGoogleDivorcio
           author={`Esdras Morame`}
           stars={5}
