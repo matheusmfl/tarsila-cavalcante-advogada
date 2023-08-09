@@ -5,7 +5,7 @@ export function Section1() {
   return (
     <section className="px-10 pb-[40px] flex items-center justify-center w-full">
       {/* Container dos cards */}
-      <div className="w-full flex flex-col py-10 px-6 rounded-xl shadow-2xl gap-5 -translate-y-10 z-30">
+      <div className="w-full flex flex-col bg-slate-50 py-10 px-6 rounded-xl shadow-2xl gap-5 -translate-y-10 z-30">
         {/* Separador */}
         <div className="flex gap-4">
           <div className="h-full items-start justify-start">
