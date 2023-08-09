@@ -17,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={roboto.className}>
-      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <link rel="icon" href="./favicon.ico" sizes="any" />
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=GTM-PJHLWH7R"
