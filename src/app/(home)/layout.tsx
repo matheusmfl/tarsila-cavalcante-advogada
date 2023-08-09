@@ -3,7 +3,6 @@ import '../globals.css'
 import { Roboto } from 'next/font/google'
 import { Header } from '../components/Header'
 import Script from 'next/script'
-import '../'
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
