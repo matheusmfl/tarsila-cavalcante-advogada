@@ -1,4 +1,4 @@
-export const faq = [
+export const faqDivorcio = [
   {
     id: 1,
     title: 'O que é um divórcio consensual?',

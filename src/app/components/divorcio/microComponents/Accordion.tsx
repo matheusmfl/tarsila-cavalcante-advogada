@@ -1,11 +1,20 @@
 /* eslint-disable prettier/prettier */
 'use client'
-import { faq } from '@/utils/faq'
+import { faqDivorcio } from '@/utils/faq'
+import { faqTrabalhista } from '@/utils/faqTrabalhista'
 import * as Accordion from '@radix-ui/react-accordion'
 import { ChevronDownIcon } from 'lucide-react'
 import { useState } from 'react'
 
-export function Accordeon() {
+export function Accordeon({ type }: { type: 'trabalhista' | 'divorcio' }) {
+  let faq
+
+  if (type === 'trabalhista') {
+    faq = faqTrabalhista
+  }
+  else {
+    faq = faqDivorcio
+  }
   const [activeItem, setActiveItem] = useState('')
   const handleTriggerClick = (value: string) => {
     setActiveItem((prevActiveItem) => (prevActiveItem === value ? '' : value))
