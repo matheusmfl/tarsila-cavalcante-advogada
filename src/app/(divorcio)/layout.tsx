@@ -23,6 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={`${roboto.className} ${inter.className}`}>
+      <link rel="icon" href="./favicon.ico" sizes="any" />
       {/* Analytics Tags */}
       <Script
         async
