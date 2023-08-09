@@ -68,7 +68,7 @@ export function Section1() {
             <Image src={check} alt="Check" className="scale-125" />
           </div>
           <span className="pr-4 text-slate-700 font-inter text-xl font-semibold leading-[20px]">
-            Seguro desemprego e FGTS
+            Seguro desemprego <br /> e FGTS
           </span>
         </div>
 
