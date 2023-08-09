@@ -2,7 +2,7 @@ import { CardsGoogleDivorcio } from '../divorcio/microComponents/CardsGoogleDivo
 
 export function SectionFeedback() {
   return (
-    <section className="py-10 px-6 flex items-center justify-center flex-col gap-8 md:gap-10 bg-slate-900 w-full">
+    <section className="py-10 px-6 lg:py-20 flex items-center justify-center flex-col gap-8 md:gap-10 bg-slate-900 w-full">
       <h2 className="text-center text-slate-50 font-roboto text-xl md:text-[28px] font-semibold leading-7">
         O que dizem NOSSOS CLIENTES:
       </h2>
@@ -38,7 +38,7 @@ export function SectionFeedback() {
       </div>
 
       {/* Div para XL */}
-      <div className="hidden xl:flex xl:gap-2">
+      <div className="hidden xl:flex xl:gap-2 lg:scale-125">
         <CardsGoogleDivorcio
           author={`Robson Maranhão`}
           stars={5}
