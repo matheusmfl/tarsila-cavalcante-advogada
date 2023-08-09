@@ -3,6 +3,7 @@ import '../globals.css'
 import { Roboto } from 'next/font/google'
 import { Header } from '../components/Header'
 import Script from 'next/script'
+import '../'
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
@@ -17,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={roboto.className}>
-      <link rel="icon" href="./favicon.ico" sizes="any" />
+      <link rel="icon" href="../favicon.ico" sizes="any" />
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=GTM-PJHLWH7R"
